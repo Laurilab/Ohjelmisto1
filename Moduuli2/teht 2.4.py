@@ -1,0 +1,1 @@
+Luku1 = float(input("Anna ensimmäinen luku)
