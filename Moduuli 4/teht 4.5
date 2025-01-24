@@ -1,0 +1,20 @@
+
+user = "Pekka"
+salis = "Pakka"
+yri = 0
+
+
+while yri < 5:
+    user1 = input("käyttäjänimi: ")
+    salis1 = input("salasanasi: ")
+
+    if user == user1  and salis == salis1:
+        print("Pääsy myönnetty")
+        break
+    else:
+        yri = yri + 1
+        print("Yritä uudestaan")
+
+    if yri == 5:
+        print("pääsy evätty")
+
